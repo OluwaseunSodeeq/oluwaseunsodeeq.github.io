@@ -27,7 +27,8 @@ function Projects() {
         " Explore our office location and connect with us effortlessly through our user-friendly contact form, ensuring seamless communication for potential clients.",
         " Dive into our latest project showcase to witness our innovative solutions and dedication to delivering exceptional results firsthand.",
       ],
-      tools: "CSS Modules, Context api, React Router, Hooks, Git",
+      tools:
+        "CSS Modules, Context api, React Router, React Hooks, React-hook-form, React-Hot-Toast, FormSpree and Git",
       logo: "../besLogo.png",
       borderBg: {
         background:
@@ -46,7 +47,8 @@ function Projects() {
         " Employers can easily connect with AJ via a user-friendly contact form for potential collaborations.",
         " Explore the latest project page for insights into AJ's innovative solutions and commitment to excellence in product design.",
       ],
-      tools: "Tailwind css, React-router, Context Api, Hooks, Git",
+      tools:
+        "Tailwind css, React-router, Context Api, React Hooks, React-hook-form, React-Hot-Toast, EmailJs and Git",
       logo: "../aj-logo.png",
       borderBg: {
         background: "linear-gradient(180deg, #CED3DC 0%, #67696E 100%)",
@@ -60,7 +62,6 @@ function Projects() {
         "../homeLL.PNG",
         "../reservationLL.PNG",
         "../orderLL.PNG",
-        
       ],
       projBg: "#F8FEF9",
       title: "Little Lemon",
@@ -69,7 +70,8 @@ function Projects() {
         " This 🍋 is a dynamic website that transforms the user experience while capturing the essence of a family-inherited restaurant.",
         " Explore our menu, make a reservation and order online with ease.",
       ],
-      tools: "Styled Components, Context API & useReducer, React Router, Hooks, LocalStorage, Formik & Yup, Git",
+      tools:
+        "Styled Components, Context API & useReducer, React Router,React Hooks, LocalStorage, React-Hot-Toast, Formik & Yup, Git",
       logo: "../lemon-logo.png",
       borderBg: {
         background:

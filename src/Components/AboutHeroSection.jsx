@@ -27,7 +27,7 @@ function AboutHeroSection() {
   (anchored meta), InstinctHub, and Tiidelab. This diverse learning 
   experience not only broadened my skillset in the basics of web 
   development technologies like HTML, CSS, and JavaScript, but also 
-  advanced skills like React, Tailwind, and VCS (Git). My learning 
+  advanced skills like React, NextJS, CSS Modules,Styled-Components Tailwind CSS, and VCS (Git). My learning 
   journey is validated by building projects and earning certificates 
   of completion, which solidify my proficiency in web development.`,
     },

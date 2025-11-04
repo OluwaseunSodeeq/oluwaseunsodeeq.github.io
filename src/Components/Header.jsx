@@ -11,9 +11,8 @@ function Header() {
 
   return (
     <div className="w-full h-[70px] md:h-[98px] lg:h-[103px] inline-block bg-text-color-two fixed p-0 top-[-2px] left-0 right-0 z-50 ">
-      {/* <NewHeader /> */}
       {/* <Container> */}
-      <div className="w-full  px-6 py-4 md:px-[62px] md:py-6 lg:px-[104px] lg:max-w-[1440px] lg:h-[103px]  mx-auto ">
+      <div className="w-full  px-6 py-4 md:px-[62px] md:py-6 lg:px-[104px] lg:max-w-[1440px] lg:h-[103px]  mx-auto">
         <div className="w-full mx-auto flex justify-between items-center ">
           <Logo />
           <Nav />
@@ -27,7 +26,6 @@ function Header() {
           <Navbody />
         </div>
       </div>
-      {/* </Container> */}
     </div>
   );
 }
