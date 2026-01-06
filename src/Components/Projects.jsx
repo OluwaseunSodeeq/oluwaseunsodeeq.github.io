@@ -36,24 +36,53 @@ function Projects() {
       },
       url: "https://bes-beta.vercel.app/",
     },
+
+    // {
+    //   id: 2,
+    //   images: ["../aj01.png", "../aj02.png", "../aj03.png"],
+    //   projBg: "#F7F7F7",
+    //   tech: "",
+    //   title: "AJ-portfolio",
+    //   aboutProject: [
+    //     " AJ's portfolio website highlights the expertise of a skilled product designer, showcasing recent projects and capabilities.",
+    //     " Employers can easily connect with AJ via a user-friendly contact form for potential collaborations.",
+    //     " Explore the latest project page for insights into AJ's innovative solutions and commitment to excellence in product design.",
+    //   ],
+    //   tools:
+    //     "Tailwind css, React-router, Context Api, React Hooks, React-hook-form, React-Hot-Toast, EmailJs and Git",
+    //   logo: "../aj-logo.png",
+    //   borderBg: {
+    //     background: "linear-gradient(180deg, #CED3DC 0%, #67696E 100%)",
+    //   },
+    //   url: "https://abdul-gafar.netlify.app/",
+    // },
     {
       id: 2,
-      images: ["../aj01.png", "../aj02.png", "../aj03.png"],
+      images: [
+        "../farm01.png",
+        "../farm02.png",
+        "../farm03.png",
+        "../farm04.png",
+        "../farm05.png",
+        "../farm06.png",
+        "../farm07.png",
+      ],
       projBg: "#F7F7F7",
       tech: "",
-      title: "AJ-portfolio",
+      title: "FarmConnect",
       aboutProject: [
-        " AJ's portfolio website highlights the expertise of a skilled product designer, showcasing recent projects and capabilities.",
-        " Employers can easily connect with AJ via a user-friendly contact form for potential collaborations.",
-        " Explore the latest project page for insights into AJ's innovative solutions and commitment to excellence in product design.",
+        "An admin-only web application designed to manage and monitor farmers and their customers through clear, well-structured data visualization.",
+        "The platform delivers insightful visual representations that enable administrators to quickly analyze farmer activities, customer relationships, and overall performance.",
+        "Built with a focus on usability and clarity, the application simplifies data-driven decision-making while maintaining a modern, intuitive interface.",
       ],
       tools:
-        "Tailwind css, React-router, Context Api, React Hooks, React-hook-form, React-Hot-Toast, EmailJs and Git",
-      logo: "../aj-logo.png",
+        "Tailwind css, Nextjs, Context Api, React Hooks, Radix UI, Recharts, Git etc.",
+      logo: "../farmlogo.png",
       borderBg: {
-        background: "linear-gradient(180deg, #CED3DC 0%, #67696E 100%)",
+        background:
+          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
       },
-      url: "https://abdul-gafar.netlify.app/",
+      url: "https://farmconnect-admin.vercel.app/dashboard/",
     },
     {
       id: 3,
@@ -135,7 +164,7 @@ function Projects() {
   return (
     <div className="py-4 h-auto bg-plain-white lg:px-0  ">
       <ContentContainer>
-        <div className="pl-6  lg:pl-0">
+        <div className="pl-6 lg:pl-0">
           <SubsectionsHeader title="Projects" header="Recent projects" />
         </div>
       </ContentContainer>

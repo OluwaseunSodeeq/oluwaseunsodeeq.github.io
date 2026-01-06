@@ -16,6 +16,7 @@ export default {
         "btn-text-color": "#67696E",
         "text-color-two": "#F2F4F6",
         "plain-white": "#ffffff",
+        "farm-green": "#15803d",
         projectBorder:
           "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
       },

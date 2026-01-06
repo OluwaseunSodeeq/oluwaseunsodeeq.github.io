@@ -16,7 +16,12 @@ function ProjectCardCOntent({ each, ind }) {
           title !== "IP-Address-Tracker"
             ? "w-[47px] lg:w-[73px] md:w-[52px] "
             : "w-auto"
-        } h-[47px] lg:h-[73px] lg:mt-2 `}
+        } 
+        ${
+          title === "FarmConnect"
+            ? "bg-[#15803d] flex justify-center items-center rounded-full"
+            : ""
+        } h-[47px] lg:h-[73px] lg:mt-2`}
       >
         <img
           src={logo}
@@ -65,7 +70,11 @@ function ProjectCardCOntent({ each, ind }) {
                       } `}
       >
         <Link to={url} target="_blank" rel="noopener noreferrer">
-          <button className="  px-3 py-2 border rounded-[8px]   bg-blue-text text-plain-white hover:bg-plain-white hover:text-blue-text hover:shadow-custom ">
+          <button
+            className={`px-3 py-2 border rounded-[8px] ${
+              ind == 1 || ind == 2 ? "bg-[#15803d]" : "bg-blue-text"
+            } text-plain-white hover:bg-plain-white hover:text-blue-text hover:shadow-custom `}
+          >
             View Website
           </button>
         </Link>
