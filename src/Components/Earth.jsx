@@ -41,8 +41,7 @@ const Earth = () => {
         className={`absolute w-[250px] md:w-[380px] md:h-[380px] lg:w-[80%] lg:h-[80%] z-20 lg:top-[45px] lg:bottom-[45px] left-[0px] md:left-[33px]  md:right-[33px] md:top-[70px] md:bottom-[33px] right-[0px] top-[33px] bottom-[33px]   border rounded-full mx-auto`}
       >
         <img
-          // src="seun01.png"
-          src="pp-image.png"
+          src="Intense-seun.png"
           className="rounded-full w-full lg:w-[90%]  h-full lg:mx-auto pb-0 pt-2 lg:pb-4 lg:pt-2 "
         />
       </div>
