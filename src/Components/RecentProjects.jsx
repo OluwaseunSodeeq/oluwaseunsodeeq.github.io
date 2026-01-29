@@ -5,12 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import ContentContainer from "../Ui/ContentContainer";
-import ProjectCardCOntent from "./ProjectCardCOntent";
-import ProjectCardSlider from "./ProjectCardSlider";
 import SubsectionsHeader from "./SubsectionsHeader";
 import { Link } from "react-router-dom";
+import RecentProjectCardCOntent from "./RecentProjectCardCOntent";
+import RecentProjectCardSlider from "./RecentProjectCardSlider";
 
-function Projects() {
+function RecentProjects() {
   const projectSliderItems = [
     {
       id: 1,
@@ -184,8 +184,8 @@ function Projects() {
                     (ind + 1) % 2 !== 0 ? "md:flex-row-reverse" : "md:flex-row"
                   }`}
                 >
-                  <ProjectCardCOntent each={each} ind={ind} />
-                  <ProjectCardSlider
+                  <RecentProjectCardCOntent each={each} ind={ind} />
+                  <RecentProjectCardSlider
                     sliderProperties={{ borderBg, settings, images, Slider }}
                   />
 
@@ -204,4 +204,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default RecentProjects;

@@ -13,11 +13,13 @@ function Skills() {
   // ];
 
   const skillsArray = [
-    { skill: "CSS" },
-    { skill: "HTML" },
-    { skill: "PYTHON" },
-    { skill: "JAVASCRIPT" },
     { skill: "REACTJS" },
+    { skill: "NEXTJS" },
+    { skill: "NODEJS" },
+    { skill: "JAVASCRIPT" },
+    { skill: "PYTHON" },
+    { skill: "HTML" },
+    { skill: "CSS" },
     { skill: "TAILWIND CSS" },
     { skill: "CSS MODULES" },
     { skill: "STYLED COMPONENT" },

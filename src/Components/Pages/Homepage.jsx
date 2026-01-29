@@ -1,7 +1,7 @@
 import Footer from "../../Ui/Footer";
 import Header from "../Header";
 import HomepageHeroSection from "../HomepageHeroSection";
-import Projects from "../Projects";
+import RecentProjects from "../RecentProjects";
 import Skills from "../Skills";
 
 function Homepage() {
@@ -10,7 +10,7 @@ function Homepage() {
       <Header />
       <HomepageHeroSection />
       <Skills />
-      <Projects />
+      <RecentProjects />
       <Footer />
     </section>
   );

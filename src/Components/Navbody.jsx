@@ -29,6 +29,11 @@ function Navbody() {
             CONTACT
           </CurrentNav>
         </li>
+        <li className=" flex items-center pl-6 font-medium w-full h-[48px] border-b-2 border-btn-text-color-400 font-quicksand text-base leading-[32px] text-btn-text-color  hover:text-blue-text ">
+          <CurrentNav onClick={closeHandler} to="/projects" location={location}>
+            PROJECTS
+          </CurrentNav>
+        </li>
       </ul>
     </div>
   );

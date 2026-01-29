@@ -1,7 +1,7 @@
 import { useMediaQuery } from "react-responsive";
 import { Link } from "react-router-dom";
 
-function ProjectCardCOntent({ each, ind }) {
+function RecentProjectCardCOntent({ each, ind }) {
   const mobilebreakpoint = useMediaQuery({ maxWidth: 767 });
   const tabletbreakpoint = useMediaQuery({ maxWidth: 1024 });
   const desktopbreakpoint = useMediaQuery({ minWidth: 1025 });
@@ -83,4 +83,4 @@ function ProjectCardCOntent({ each, ind }) {
   );
 }
 
-export default ProjectCardCOntent;
+export default RecentProjectCardCOntent;

@@ -1,4 +1,4 @@
-function ProjectCardSlider({ sliderProperties }) {
+function RecentProjectCardSlider({ sliderProperties }) {
   const { borderBg, settings, images, Slider } = sliderProperties;
   return (
     <div className="w-full md:w-1/2  px-6 md:px-0">
@@ -26,4 +26,4 @@ function ProjectCardSlider({ sliderProperties }) {
   );
 }
 
-export default ProjectCardSlider;
+export default RecentProjectCardSlider;

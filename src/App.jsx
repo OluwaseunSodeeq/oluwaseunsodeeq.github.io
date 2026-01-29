@@ -10,6 +10,7 @@ import Loader from "./Ui/Loader";
 const Homepage = lazy(() => import("./Components/Pages/Homepage"));
 const About = lazy(() => import("./Components/Pages/About"));
 const Contact = lazy(() => import("./Components/Pages/Contact"));
+const Projects = lazy(() => import("./Components/Pages/Projects"));
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
               <Route path="/" element={<Homepage />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/projects" element={<Projects />} />
             </Routes>
           </Suspense>
         </BrowserRouter>
