@@ -1,32 +1,9 @@
 import ContentContainer from "../Ui/ContentContainer";
 import Skill from "./Skill";
+import { skillsets } from "./Skillsets";
 import SubsectionsHeader from "./SubsectionsHeader";
 
 function Skills() {
-  // const skillsArray = [
-  //   { skill: "HTML", percent: 9 },
-  //   { skill: "CSS", percent: 9 },
-  //   { skill: "JAVASCRIPT", percent: 8 },
-  //   { skill: "REACT.JS", percent: 7 },
-  //   { skill: "TAILWIND CSS", percent: 7 },
-  //   { skill: "GIT", percent: 6 },
-  // ];
-
-  const skillsArray = [
-    { skill: "REACTJS" },
-    { skill: "NEXTJS" },
-    { skill: "NODEJS" },
-    { skill: "JAVASCRIPT" },
-    { skill: "PYTHON" },
-    { skill: "HTML" },
-    { skill: "CSS" },
-    { skill: "TAILWIND CSS" },
-    { skill: "CSS MODULES" },
-    { skill: "STYLED COMPONENT" },
-    { skill: "CRITICAL THINKING" },
-    { skill: "PROBLEM SOLVING" },
-    { skill: "GREAT VERBAL AND WRITTEN COMMUNICATION" },
-  ];
   const maxPercent = 10;
   return (
     <ContentContainer background="#ffffff">
@@ -51,7 +28,7 @@ function Skills() {
                 Technical and Organisational :
               </h4>
               <div className=" lg:flex lg:flex-wrap  lg:gap-x-[30px] ">
-                {skillsArray.map((each, i) => (
+                {skillsets.map((each, i) => (
                   <Skill
                     each={each}
                     i={i}

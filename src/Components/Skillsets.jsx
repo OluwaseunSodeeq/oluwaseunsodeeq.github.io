@@ -1,0 +1,15 @@
+export const skillsets = [
+  { skill: "REACTJS" },
+  { skill: "NEXTJS" },
+  { skill: "NODEJS" },
+  { skill: "JAVASCRIPT" },
+  { skill: "PYTHON" },
+  { skill: "HTML" },
+  { skill: "CSS" },
+  { skill: "TAILWIND CSS" },
+  { skill: "CSS MODULES" },
+  { skill: "STYLED COMPONENT" },
+  { skill: "CRITICAL THINKING" },
+  { skill: "PROBLEM SOLVING" },
+  { skill: "GREAT VERBAL AND WRITTEN COMMUNICATION" },
+];

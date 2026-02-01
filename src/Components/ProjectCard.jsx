@@ -3,7 +3,7 @@ import { BsGlobe2 } from "react-icons/bs";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className=" rounded-xl overflow-hidden ">
+    <div className=" rounded-xl overflow-hidden lg:h-100 ">
       <div className="relative bg-plain-white shadow-lg rounded-md overflow-hidden transition-transform transform hover:scale-105">
         {/* Project Image */}
         <div className="w-full h-48 flex items-center justify-center border-2">
@@ -29,7 +29,7 @@ export default function ProjectCard({ project }) {
             {(project.tools || []).map((tool, idx) => (
               <span
                 key={idx}
-                className="text-xs bg-text-color-two text-blue-text px-2 py-1 rounded-md border-gray-400 border-1"
+                className="text-xs border-2 border-gray-300 bg-text-color-two text-blue-text px-2 py-1 rounded-md"
               >
                 {tool}
               </span>
@@ -38,10 +38,10 @@ export default function ProjectCard({ project }) {
 
           {/* Icons */}
           <div
-            className={`flex items-center  mt-4 ${project.demo ? "justify-between" : "justify-end"}`}
+            className={`flex items-center text-btn-text-color mt-4 ${project.demo ? "justify-between" : "justify-end"}`}
           >
             {project.demo && (
-              <div className="flex gap-2 cursor-pointer">
+              <div className="flex items-center gap-2 hover:text-blue-text cursor-pointer">
                 <span>
                   <FaPlay size={15} className="mr-1" />
                 </span>
@@ -54,7 +54,7 @@ export default function ProjectCard({ project }) {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-blue-text transition cursor-pointer"
+                  className=" transition cursor-pointer"
                 >
                   <FaGithub size={20} />
                 </a>

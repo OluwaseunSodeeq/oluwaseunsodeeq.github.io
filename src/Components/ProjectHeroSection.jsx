@@ -1,6 +1,7 @@
 import { useState } from "react";
 import ContentContainer from "../Ui/ContentContainer";
 import ProjectCard from "./ProjectCard";
+import ContuinuousMovingIcons from "./ContinuousMovingIcons";
 
 export default function ProjectHeroSection() {
   const projectsDeatails = [
@@ -30,9 +31,10 @@ export default function ProjectHeroSection() {
       id: 3,
       demo: false,
       title: "BES – Engineering Services",
-      description: "Responsive business site showcasing services.",
+      description:
+        "Responsive business site showcasing services. business site showcasing services.",
       tools: ["React.js", "Tailwind CSS", "Formspree"],
-      image: "../besLogo.png",
+      image: "../BESLOGO.svg",
       live: "https://your-live-link.com",
       github: "https://github.com/yourname/bes",
       category: "nextjs",
@@ -90,28 +92,25 @@ export default function ProjectHeroSection() {
         <div className="flex justify-center gap-6 mb-6">
           {categories.map((cat) => (
             <button
-              className={`px-3 py-2 md:px-4  text-nowrap text-base font-normal font-outfit leading-6 border-2 border-blue-text bg-blue-text text-text-color-two rounded-[8px]`}
+              className={`px-3 py-2 md:px-4  text-nowrap text-base font-normal font-outfit leading-6 border-2 border-x-text-color-two text-btn-text-color bg-text-color-two rounded-[8px] hover:text-blue-text`}
               key={cat}
               onClick={() => setActiveCategory(cat)}
             >
               {cat}
             </button>
-
-            // <button
-            //   key={cat}
-            //   onClick={() => setActiveCategory(cat)}
-            //   className={`px-4 py-2 rounded-full font-semibold transition ${
-            //     activeCategory === cat
-            //       ? "bg-blue-text text-white"
-            //       : "bg-gray-300 dark:bg-gray-700 text-text-color dark:text-blue-text"
-            //   }`}
-            // >
-            //   {cat}
-            // </button>
           ))}
         </div>
 
-        <div className="border-2 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="py-3">
+          <div className="font-mono text-left text-3xl font-bold mb-8 text-text-color w-[300px] italic">
+            My Skillset
+          </div>
+          <div>
+            <ContuinuousMovingIcons />
+          </div>
+        </div>
+
+        <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {filtered.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

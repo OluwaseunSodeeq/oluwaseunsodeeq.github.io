@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom";
 import useOpenContext from "./Contexts/useOpenContext";
 import CurrentNav from "./CurrentNav";
+
 function Navbody() {
   const { setOpen } = useOpenContext();
   const location = useLocation();
