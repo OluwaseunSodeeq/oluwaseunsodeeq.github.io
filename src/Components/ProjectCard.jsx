@@ -3,10 +3,10 @@ import { BsGlobe2 } from "react-icons/bs";
 
 export default function ProjectCard({ project }) {
   return (
-    <div className=" rounded-xl overflow-hidden lg:h-100 ">
-      <div className="relative bg-plain-white shadow-lg rounded-md overflow-hidden transition-transform transform hover:scale-105">
+    <div className="  overflow-hidden  ">
+      <div className="relative bg-plain-white shadow-lg  overflow-hidden transition-transform transform hover:scale-105">
         {/* Project Image */}
-        <div className="w-full h-48 flex items-center justify-center border-2">
+        <div className="w-full h-48 flex items-center justify-center border-2 rounded-t-md border-text-color-two bg-plain-white">
           <img
             src={project.image}
             alt={project.title}
