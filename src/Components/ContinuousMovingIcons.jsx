@@ -30,7 +30,7 @@ export default function ContinuousMovingIcons() {
   }, []);
 
   return (
-    <div className="overflow-hidden w-full bg-text-color-two py-3 text-btn-text-color lg:text-xl">
+    <div className="overflow-hidden w-full bg-text-color-two py-3 text-blue-text lg:text-xl">
       <div
         ref={trackRef}
         className="flex whitespace-nowrap will-change-transform"

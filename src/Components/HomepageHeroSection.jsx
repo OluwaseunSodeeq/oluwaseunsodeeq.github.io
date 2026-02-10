@@ -20,12 +20,18 @@ function HomepageHeroSection() {
               A Frontend Developer
             </h4>
             <p className="text-btn-text-color font-normal text-[14px] md:text-base font-inter leading-5 md:leading-6 mt-[16px] lg:mt-[24px]">
-              Driven by the thrill of crafting seamless, intuitive user
+              Driven by a passion for building seamless and intuitive user
+              experiences, I specialize in translating complex ideas into clean,
+              scalable, and engaging interfaces. With a strong focus on
+              precision, performance, and modern design principles, I deliver
+              solutions that are not only functional today but built to adapt
+              and grow with future needs.
+              {/* Driven by the thrill of crafting seamless, intuitive user
               experiences. My passion for precision coding and design finesse
               ensures every project I undertake captivates and engages its
               audience. From translating complex concepts into elegant
               interfaces to staying ahead of emerging trends, I&#39;m committed
-              to delivering not just functional, but future-proof solutions.
+              to delivering not just functional, but future-proof solutions. */}
               {/* Devoted Frontend Developer, channeling passion into the creation
               of seamless, intuitive user experiences through meticulous coding
               and a keen eye for design */}

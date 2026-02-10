@@ -5,7 +5,7 @@ import ContinuousMovingIcons from "./ContinuousMovingIcons";
 import { projectsDeatails } from "./AllMyProjects";
 
 export default function ProjectHeroSection() {
-  const categories = ["All", "Nextjs", "React", "Vanilla JavaScript"];
+  const categories = ["All", "Nextjs", "Reactjs", "Vanilla JavaScript"];
   const [activeCategory, setActiveCategory] = useState("All");
 
   const filtered =
@@ -21,20 +21,30 @@ export default function ProjectHeroSection() {
     <ContentContainer background="#ffffff">
       <section className="w-full lg:mt-[150px] px-4 lg:px-0 mt-24 lg:pb-[72px]">
         <div className="hidden lg:flex justify-center gap-6 mb-6">
-          {categories.map((cat) => (
-            <button
-              className={`px-3 py-2 md:px-4  text-nowrap text-base font-normal font-outfit leading-6 border-2 border-x-text-color-two text-btn-text-color bg-text-color-two rounded-[8px] hover:text-blue-text`}
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-            >
-              {cat}
-            </button>
-          ))}
+          {categories.map((cat) => {
+            const isActive = cat.toLowerCase() === activeCategory.toLowerCase();
+
+            return (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className={`px-3 py-2 md:px-4 text-nowrap text-base font-normal font-outfit leading-6 border-2 rounded-[8px] transition-colors
+          ${
+            isActive
+              ? "text-blue-text bg-text-white border-blue-text"
+              : "bg-text-color-two text-btn-text-color border-x-text-color-two hover:text-blue-text"
+          }
+        `}
+              >
+                {cat}
+              </button>
+            );
+          })}
         </div>
 
         <div className="flex flex-col bg-plain-white ">
           <div className="flex justify-end">
-            <div className="font-mono text-right text-3xl font-bold mb-8 text-text-color italic">
+            <div className="font-mono text-right text-3xl font-bold mb-8 text-btn-text-color italic">
               My Skills
             </div>
           </div>
