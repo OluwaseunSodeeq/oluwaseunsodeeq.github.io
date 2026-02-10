@@ -7,8 +7,8 @@ export const projectsDeatails = [
       "A climate literacy platform designed to promote environmental awareness through storytelling and technology. Includes an AI chatbot that provides accurate insights on climate, weather, and sustainability topics.",
     tools: ["Next.js", "Tailwind CSS", "Ai"],
     image: "../clemeset.svg",
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourname/farmconnect",
+    live: "https://alyika.vercel.app/",
+    github: "https://github.com/OluwaseunSodeeq/alyika",
     category: "nextjs",
   },
   {
