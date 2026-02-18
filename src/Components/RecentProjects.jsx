@@ -14,6 +14,54 @@ function RecentProjects() {
   const projectSliderItems = [
     {
       id: 1,
+      images: ["../clemeset1.png", "../clemeset1.png"],
+      projBg: "#F7F7F7",
+      tech: "",
+      title: "Clemeset",
+      aboutProject: [
+        "A climate literacy platform designed to promote environmental awareness through engaging storytelling and innovative technology. ",
+        "Features an AI-powered chatbot that delivers accurate insights on climate, weather, and sustainability topics in real time. ",
+        "We invite you to explore Clemeset and experience its features firsthand.",
+      ],
+
+      tools: "Tailwind css, Nextjs, Context Api, React Hooks, OPenAi, Git etc.",
+      logo: "../clemeset.svg",
+      borderBg: {
+        background:
+          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
+      },
+      url: "https://alyika.vercel.app/",
+    },
+    {
+      id: 2,
+      images: [
+        "../farm01.png",
+        "../farm02.png",
+        "../farm03.png",
+        "../farm04.png",
+        "../farm05.png",
+        "../farm06.png",
+        "../farm07.png",
+      ],
+      projBg: "#F7F7F7",
+      tech: "",
+      title: "FarmConnect",
+      aboutProject: [
+        "An admin-driven platform built to manage interactions between farmers and buyers efficiently through clear, well-structured data visualization. ",
+        "Features a structured dashboard for monitoring products, users, and transaction-related data.",
+        "Built with a focus on usability and clarity, the application simplifies data-driven decision-making while maintaining a modern, intuitive interface. ",
+      ],
+      tools:
+        "Tailwind css, Nextjs, Context Api, React Hooks, Radix UI, Recharts, Git etc.",
+      logo: "../farmlogo.png",
+      borderBg: {
+        background:
+          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
+      },
+      url: "https://farmconnect-admin.vercel.app/dashboard/",
+    },
+    {
+      id: 3,
       images: [
         "../bespro1.png",
         "../bespro2.png",
@@ -23,8 +71,8 @@ function RecentProjects() {
       projBg: "#F8FEF9",
       title: "BES",
       aboutProject: [
-        "BES is a meticulously crafted website highlighting its comprehensive range of services and commitment to excellence.",
-        " Explore our office location and connect with us effortlessly through our user-friendly contact form, ensuring seamless communication for potential clients.",
+        "BES is a meticulously crafted website highlighting its comprehensive range of services and commitment to excellence. ",
+        " Explore our office location and connect with us effortlessly through our user-friendly contact form, ensuring seamless communication for potential clients. ",
         " Dive into our latest project showcase to witness our innovative solutions and dedication to delivering exceptional results firsthand.",
       ],
       tools:
@@ -56,76 +104,76 @@ function RecentProjects() {
     //   },
     //   url: "https://abdul-gafar.netlify.app/",
     // },
-    {
-      id: 2,
-      images: [
-        "../farm01.png",
-        "../farm02.png",
-        "../farm03.png",
-        "../farm04.png",
-        "../farm05.png",
-        "../farm06.png",
-        "../farm07.png",
-      ],
-      projBg: "#F7F7F7",
-      tech: "",
-      title: "FarmConnect",
-      aboutProject: [
-        "An admin-only web application designed to manage and monitor farmers and their customers through clear, well-structured data visualization.",
-        "The platform delivers insightful visual representations that enable administrators to quickly analyze farmer activities, customer relationships, and overall performance.",
-        "Built with a focus on usability and clarity, the application simplifies data-driven decision-making while maintaining a modern, intuitive interface.",
-      ],
-      tools:
-        "Tailwind css, Nextjs, Context Api, React Hooks, Radix UI, Recharts, Git etc.",
-      logo: "../farmlogo.png",
-      borderBg: {
-        background:
-          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
-      },
-      url: "https://farmconnect-admin.vercel.app/dashboard/",
-    },
-    {
-      id: 3,
-      images: [
-        "../loginLL.PNG",
-        "../homeLL.PNG",
-        "../reservationLL.PNG",
-        "../orderLL.PNG",
-      ],
-      projBg: "#F8FEF9",
-      title: "Little Lemon",
-      aboutProject: [
-        "Little Lemon is the final project of the Front-End Development Professional Certificate program, an online course hosted on Coursera and led by Meta.",
-        " This 🍋 is a dynamic website that transforms the user experience while capturing the essence of a family-inherited restaurant.",
-        " Explore our menu, make a reservation and order online with ease.",
-      ],
-      tools:
-        "Styled Components, Context API & useReducer, React Router,React Hooks, LocalStorage, React-Hot-Toast, Formik & Yup, Git",
-      logo: "../lemon-logo.png",
-      borderBg: {
-        background:
-          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
-      },
-      url: "https://little-lemon-indol.vercel.app/",
-    },
-    {
-      id: 4,
-      images: ["../ip-design.jpg", "../ip-web.PNG"],
-      projBg: "#FEFEFE",
-      tech: "",
-      title: "IP-Address-Tracker",
-      aboutProject: [
-        "This is a dynamic website developed using HTML, CSS, Git and JavaScript, inspired by a challenge from Frontend Mentor.",
-        " This website effortlessly fetches and displays location, ISP, timezone, and current IP address information based on user input, complete with robust error handling for incorrect entries.",
-        "",
-      ],
-      tools: "Html, Css and JavaScript",
-      logo: "../fontendMentor-Logo.png",
-      borderBg: {
-        background: "linear-gradient(180deg, #CED3DC 0%, #5B7BE4 100%)",
-      },
-      url: "https://oluwaseunsodeeq.github.io/ip-address-tracker/",
-    },
+    // {
+    //   id: 2,
+    //   images: [
+    //     "../farm01.png",
+    //     "../farm02.png",
+    //     "../farm03.png",
+    //     "../farm04.png",
+    //     "../farm05.png",
+    //     "../farm06.png",
+    //     "../farm07.png",
+    //   ],
+    //   projBg: "#F7F7F7",
+    //   tech: "",
+    //   title: "FarmConnect",
+    //   aboutProject: [
+    //     "An admin-only web application designed to manage and monitor farmers and their customers through clear, well-structured data visualization.",
+    //     "The platform delivers insightful visual representations that enable administrators to quickly analyze farmer activities, customer relationships, and overall performance.",
+    //     "Built with a focus on usability and clarity, the application simplifies data-driven decision-making while maintaining a modern, intuitive interface.",
+    //   ],
+    //   tools:
+    //     "Tailwind css, Nextjs, Context Api, React Hooks, Radix UI, Recharts, Git etc.",
+    //   logo: "../farmlogo.png",
+    //   borderBg: {
+    //     background:
+    //       "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
+    //   },
+    //   url: "https://farmconnect-admin.vercel.app/dashboard/",
+    // },
+    // {
+    //   id: 3,
+    //   images: [
+    //     "../loginLL.PNG",
+    //     "../homeLL.PNG",
+    //     "../reservationLL.PNG",
+    //     "../orderLL.PNG",
+    //   ],
+    //   projBg: "#F8FEF9",
+    //   title: "Little Lemon",
+    //   aboutProject: [
+    //     "Little Lemon is the final project of the Front-End Development Professional Certificate program, an online course hosted on Coursera and led by Meta.",
+    //     " This 🍋 is a dynamic website that transforms the user experience while capturing the essence of a family-inherited restaurant.",
+    //     " Explore our menu, make a reservation and order online with ease.",
+    //   ],
+    //   tools:
+    //     "Styled Components, Context API & useReducer, React Router,React Hooks, LocalStorage, React-Hot-Toast, Formik & Yup, Git",
+    //   logo: "../lemon-logo.png",
+    //   borderBg: {
+    //     background:
+    //       "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
+    //   },
+    //   url: "https://little-lemon-indol.vercel.app/",
+    // },
+    //   {
+    //     id: 4,
+    //     images: ["../ip-design.jpg", "../ip-web.PNG"],
+    //     projBg: "#FEFEFE",
+    //     tech: "",
+    //     title: "IP-Address-Tracker",
+    //     aboutProject: [
+    //       "This is a dynamic website developed using HTML, CSS, Git and JavaScript, inspired by a challenge from Frontend Mentor.",
+    //       " This website effortlessly fetches and displays location, ISP, timezone, and current IP address information based on user input, complete with robust error handling for incorrect entries.",
+    //       "",
+    //     ],
+    //     tools: "Html, Css and JavaScript",
+    //     logo: "../fontendMentor-Logo.png",
+    //     borderBg: {
+    //       background: "linear-gradient(180deg, #CED3DC 0%, #5B7BE4 100%)",
+    //     },
+    //     url: "https://oluwaseunsodeeq.github.io/ip-address-tracker/",
+    //   },
   ];
 
   var settings = {
