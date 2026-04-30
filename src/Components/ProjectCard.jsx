@@ -41,12 +41,19 @@ export default function ProjectCard({ project }) {
             className={`flex items-center text-btn-text-color mt-4 ${project.demo ? "justify-between" : "justify-end"}`}
           >
             {project.demo && (
-              <div className="flex items-center gap-2 hover:text-blue-text cursor-pointer">
-                <span>
-                  <FaPlay size={15} className="mr-1" />
-                </span>
-                <span>Watch Demo</span>
-              </div>
+              <a
+                href={project.videoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" transition cursor-pointer"
+              >
+                <div className="flex items-center gap-2 hover:text-blue-text cursor-pointer">
+                  <span>
+                    <FaPlay size={15} className="mr-1" />
+                  </span>
+                  <span>Watch Demo</span>
+                </div>
+              </a>
             )}
             <div className="flex gap-2 lg:gap-4">
               {project.github && (

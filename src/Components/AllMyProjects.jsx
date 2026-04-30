@@ -7,13 +7,15 @@ export const projectsDeatails = [
       "A climate literacy platform designed to promote environmental awareness through storytelling and technology. Includes an AI chatbot that provides accurate insights on climate, weather, and sustainability topics.",
     tools: ["Next.js", "Tailwind CSS", "Ai"],
     image: "../clemeset.svg",
-    live: "https://alyika.vercel.app/",
+    live: "https://projectclimeset.org/",
     github: "https://github.com/OluwaseunSodeeq/alyika",
     category: "nextjs",
+    videoLink:
+      "https://www.linkedin.com/feed/update/urn:li:ugcPost:7455410941028102144/",
   },
   {
     id: 2,
-    demo: false,
+    demo: true,
     title: "FarmConnect",
     description:
       "An admin-driven platform built to manage interactions between farmers and buyers efficiently. Features a structured dashboard for monitoring products, users, and transaction-related data.",
@@ -22,6 +24,7 @@ export const projectsDeatails = [
     live: "https://farmconnect-admin.vercel.app/dashboard",
     github: "https://github.com/OluwaseunSodeeq/farmconnect",
     category: "nextjs",
+    videoLink: "",
   },
   {
     id: 3,

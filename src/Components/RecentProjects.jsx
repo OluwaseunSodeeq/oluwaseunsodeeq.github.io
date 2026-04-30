@@ -14,7 +14,7 @@ function RecentProjects() {
   const projectSliderItems = [
     {
       id: 1,
-      images: ["../clemeset1.png", "../clemeset1.png"],
+      images: ["../projectClimesetImage.png", "../clemeset1.png"],
       projBg: "#F7F7F7",
       tech: "",
       title: "Clemeset",
@@ -30,7 +30,7 @@ function RecentProjects() {
         background:
           "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
       },
-      url: "https://alyika.vercel.app/",
+      url: "https://projectclimeset.org/",
     },
     {
       id: 2,
