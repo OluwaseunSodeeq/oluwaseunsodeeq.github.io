@@ -46,8 +46,8 @@ function HomepageHeroSection() {
                 className={`px-3 py-2 md:px-4  text-nowrap text-base font-normal font-outfit leading-6 border-2 border-blue-text bg-plain-white hover:bg-text-color-two text-btn-text-color rounded-[8px]`}
               >
                 <a
-                  href="../CV/OLUWASEUN SODEEQ CV.pdf"
-                  download="OLUWASEUN SODEEQ CV.pdf"
+                  href="../CV/Oluwaseun_Sodeeq--CV.pdf"
+                  download="Oluwaseun_Sodeeq--CV.pdf"
                   className=""
                 >
                   Download CV

@@ -17,11 +17,11 @@ function RecentProjects() {
       images: ["../projectClimesetImage.png", "../clemeset1.png"],
       projBg: "#F7F7F7",
       tech: "",
-      title: "Clemeset",
+      title: "Climeset",
       aboutProject: [
         "A climate literacy platform designed to promote environmental awareness through engaging storytelling and innovative technology. ",
         "Features an AI-powered chatbot that delivers accurate insights on climate, weather, and sustainability topics in real time. ",
-        "We invite you to explore Clemeset and experience its features firsthand.",
+        "We invite you to explore Climeset and experience its features firsthand.",
       ],
 
       tools: "Tailwind css, Nextjs, Context Api, React Hooks, OPenAi, Git etc.",
