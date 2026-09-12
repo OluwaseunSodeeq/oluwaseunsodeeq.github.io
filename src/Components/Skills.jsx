@@ -8,18 +8,26 @@ function Skills() {
   return (
     <ContentContainer background="#ffffff">
       <div className="px-6 py-12 lg:flex lg:justify-center lg:items-center gap-x-[72px] mt-[-30px]">
-        <div className="hidden lg:block w-[420px] h-[441px]">
-          <img src="../skillpic.png" alt="Oluwaseun Sodeeq" />
+        <div className="hidden lg:block w-[450px] h-[441px] border-2 rounded-[16px] ">
+          <img
+            src="../seun_new.jpeg"
+            alt="Oluwaseun Sodeeq"
+            className="w-full h-full object-cover rounded-[16px]"
+          />
         </div>
         <div className=" lg:w-[650px]">
           <div>
             <SubsectionsHeader title="Skills" header=" What I'm Good @" />
             <p className=" text-[14px] md:text-base md:text-[18px] leading-5 md:leading-6 font-normal font-outfit text-btn-text-color mt-4">
-              As a web developer, I blend creativity and technical expertise to
+              I enjoy taking an idea from “Can we build this?” to “It actually
+              works.” I break down problems, turn designs into responsive
+              interfaces, and work with APIs and modern tools to build
+              experiences that are clean, functional, and easy to use.
+              {/* As a web developer, I blend creativity and technical expertise to
               craft captivating and user-friendly websites. I bring a commitment
               to cutting-edge technologies and a keen eye for design, ensuring
               your project becomes a digital masterpiece. Let&apos;s collaborate
-              to transform your vision into a compelling online presence.
+              to transform your vision into a compelling online presence. */}
             </p>
           </div>
           <div className="shadow-custom pb-4 lg:pb-2">

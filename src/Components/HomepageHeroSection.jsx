@@ -20,21 +20,19 @@ function HomepageHeroSection() {
               A Frontend Developer
             </h4>
             <p className="text-btn-text-color font-normal text-[14px] md:text-base font-inter leading-5 md:leading-6 mt-[16px] lg:mt-[24px]">
-              Driven by a passion for building seamless and intuitive user
+              “Good products shouldn&apos;t make people think too hard about how
+              to use them”. I enjoy turning ideas, designs, and real-world
+              problems into responsive web experiences that are intuitive,
+              reliable, and genuinely useful. I work mainly with React and
+              Next.js, combining thoughtful design, problem-solving, and
+              attention to detail to build products that don&apos;t just look
+              good, but work well.
+              {/* Driven by a passion for building seamless and intuitive user
               experiences, I specialize in translating complex ideas into clean,
               scalable, and engaging interfaces. With a strong focus on
               precision, performance, and modern design principles, I deliver
               solutions that are not only functional today but built to adapt
-              and grow with future needs.
-              {/* Driven by the thrill of crafting seamless, intuitive user
-              experiences. My passion for precision coding and design finesse
-              ensures every project I undertake captivates and engages its
-              audience. From translating complex concepts into elegant
-              interfaces to staying ahead of emerging trends, I&#39;m committed
-              to delivering not just functional, but future-proof solutions. */}
-              {/* Devoted Frontend Developer, channeling passion into the creation
-              of seamless, intuitive user experiences through meticulous coding
-              and a keen eye for design */}
+              and grow with future needs. */}
             </p>
             <div className=" flex items-center gap-[16px] mt-4 lg:mt-[58px]">
               <button
@@ -46,8 +44,8 @@ function HomepageHeroSection() {
                 className={`px-3 py-2 md:px-4  text-nowrap text-base font-normal font-outfit leading-6 border-2 border-blue-text bg-plain-white hover:bg-text-color-two text-btn-text-color rounded-[8px]`}
               >
                 <a
-                  href="../CV/Oluwaseun_Sodeeq--CV.pdf"
-                  download="Oluwaseun_Sodeeq--CV.pdf"
+                  href="../CV/current_cv/OLUWASEUN_SODEEQ_CV_NEW.pdf"
+                  download="OLUWASEUN_SODEEQ_CV_NEW.pdf"
                   className=""
                 >
                   Download CV

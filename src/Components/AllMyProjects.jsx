@@ -29,13 +29,13 @@ export const projectsDeatails = [
   {
     id: 3,
     demo: false,
-    title: "LearnApp",
+    title: "TheraHome",
     description:
-      "A digital school platform that enables students to access learning resources and institutional information. Built to improve engagement while simplifying communication within the academic environment.",
-    tools: ["Next.js", "Tailwind CSS", "Python"],
-    image: "../Eisoft-Logo.png",
-    live: "https://learnapp-beta.vercel.app/dashboard/",
-    github: "https://github.com/OluwaseunSodeeq/learnapp",
+      "A responsive wellness booking platform enabling customers to explore massage services, book sessions, and submit product enquiries. Built with Next.js (TypeScript), Tailwind CSS, and Supabase, with integrated form handling and email notifications to support the booking workflow.",
+    tools: ["Next.js (Typescript)", "Tailwind CSS", "Supabase"],
+    image: "../therahome_logo.png",
+    live: "https://therahome.com.ng/",
+    github: "https://github.com/OluwaseunSodeeq/therahome",
     category: "nextjs",
   },
   {

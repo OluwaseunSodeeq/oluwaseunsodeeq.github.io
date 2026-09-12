@@ -4,6 +4,7 @@ export const skillsets = [
   { skill: "NODEJS" },
   { skill: "JAVASCRIPT" },
   { skill: "PYTHON" },
+  { skill: "TYPESCRIPT" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "TAILWIND CSS" },

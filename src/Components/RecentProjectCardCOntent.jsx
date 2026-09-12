@@ -10,7 +10,7 @@ function RecentProjectCardCOntent({ each, ind }) {
   const [setence1, setence2, setence3] = aboutProject;
 
   return (
-    <div className="relative p-6 md:px-2 md-p-2 lg:pt-3 lg:pb-3 h-auto  md:w-1/2 md:h-[310px]   lg:h-[500px] md:max-h-auto  rounded-[16px]">
+    <div className="relative p-6 md:px-2 md-p-2 lg:pt-3 lg:pb-3 h-auto  md:w-1/3 md:h-[310px]   lg:h-[500px] md:max-h-auto  rounded-[16px]">
       <div
         className={`${
           title !== "IP-Address-Tracker"

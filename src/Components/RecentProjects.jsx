@@ -14,6 +14,30 @@ function RecentProjects() {
   const projectSliderItems = [
     {
       id: 1,
+      images: [
+        "../thera_home.png",
+        "../thera_services.png",
+        "../thera_shop.png",
+      ],
+      projBg: "#F7F7F7",
+      tech: "",
+      title: "TheraHome",
+      aboutProject: [
+        " A responsive wellness booking platform enabling customers to explore massage services, book sessions, and submit product enquiries.",
+        " Built with Next.js (TypeScript), Tailwind CSS, and Supabase, with integrated form handling",
+        "and email notifications to support the booking workflow. ",
+      ],
+      tools:
+        "Next.js (Typescript), Tailwind CSS, Supabase,  Context Api, EmailJs",
+      logo: "../therahome_logo.png",
+      borderBg: {
+        background:
+          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
+      },
+      url: "https://therahome.com.ng/",
+    },
+    {
+      id: 2,
       images: ["../projectClimesetImage.png", "../clemeset1.png"],
       projBg: "#F7F7F7",
       tech: "",
@@ -33,7 +57,7 @@ function RecentProjects() {
       url: "https://projectclimeset.org/",
     },
     {
-      id: 2,
+      id: 3,
       images: [
         "../farm01.png",
         "../farm02.png",
@@ -60,30 +84,30 @@ function RecentProjects() {
       },
       url: "https://farmconnect-admin.vercel.app/dashboard/",
     },
-    {
-      id: 3,
-      images: [
-        "../bespro1.png",
-        "../bespro2.png",
-        "../bespro3.png",
-        "../bespro4.png",
-      ],
-      projBg: "#F8FEF9",
-      title: "BES",
-      aboutProject: [
-        "BES is a meticulously crafted website highlighting its comprehensive range of services and commitment to excellence. ",
-        " Explore our office location and connect with us effortlessly through our user-friendly contact form, ensuring seamless communication for potential clients. ",
-        " Dive into our latest project showcase to witness our innovative solutions and dedication to delivering exceptional results firsthand.",
-      ],
-      tools:
-        "CSS Modules, Context api, React Router, React Hooks, React-hook-form, React-Hot-Toast, FormSpree and Git",
-      logo: "../besLogo.png",
-      borderBg: {
-        background:
-          "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
-      },
-      url: "https://bes-beta.vercel.app/",
-    },
+    // {
+    //   id: 3,
+    //   images: [
+    //     "../bespro1.png",
+    //     "../bespro2.png",
+    //     "../bespro3.png",
+    //     "../bespro4.png",
+    //   ],
+    //   projBg: "#F8FEF9",
+    //   title: "BES",
+    //   aboutProject: [
+    //     "BES is a meticulously crafted website highlighting its comprehensive range of services and commitment to excellence. ",
+    //     " Explore our office location and connect with us effortlessly through our user-friendly contact form, ensuring seamless communication for potential clients. ",
+    //     " Dive into our latest project showcase to witness our innovative solutions and dedication to delivering exceptional results firsthand.",
+    //   ],
+    //   tools:
+    //     "CSS Modules, Context api, React Router, React Hooks, React-hook-form, React-Hot-Toast, FormSpree and Git",
+    //   logo: "../besLogo.png",
+    //   borderBg: {
+    //     background:
+    //       "linear-gradient(180deg, rgba(0, 112, 60, 0.4) 0%, rgba(0, 92, 183, 0.4) 100%)",
+    //   },
+    //   url: "https://bes-beta.vercel.app/",
+    // },
 
     // {
     //   id: 2,
