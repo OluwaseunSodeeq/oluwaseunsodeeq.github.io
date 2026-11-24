@@ -4,32 +4,13 @@ import ContentContainer from "../Ui/ContentContainer";
 function AboutHeroSection() {
   const contactContent = [
     {
-      title: "Little Bit About Me",
-      text: ` "After a couple weeks of frustration, you'll give up," said a friend. My journey started miles away from lines
-      of code, deep within the bustling world of a factory worker
-      (warehouse clerk, to be precise). While my days were filled with
-      packing and shipping finished goods, my nights were fueled by a
-      burning passion for web development. Every spare moment was spent
-      glued to online tutorials, devouring documentation, and building
-      projects I found interesting. It wasn't easy – the learning
-      curve was steep, the resources endless, especially because I
-      didn't know exactly what I needed. There were late nights
-      debugging code, moments of frustration when things wouldn't
-      work, and the constant struggle to balance my day job with my
-      learning. But I persevered, overcame each hurdle, and my skills
-      grew.`,
+      title: "A Little About Me",
+      text: `My journey into software development didn't begin in a tech office. It started while working as a warehouse clerk, where I spent my days handling warehouse operations and my nights learning how to build for the web. What started as curiosity gradually became a passion. I dedicated my spare time to learning through online resources, exploring documentation, solving problems, and building projects. The journey came with its challenges, from frustrating debugging sessions to balancing work, learning, and personal responsibilities, but I remained consistent. Today, I build responsive web applications using React, Next.js, and Node.js, with an interest in creating practical digital solutions that solve real-world problems. I'm constantly learning, improving my engineering skills, and challenging myself to build better products.`,
     },
 
     {
-      title: "Why Hire Me?",
-      text: `Driven by a thirst for knowledge, I actively participated in 
-  online courses across platforms like FreeCodeCamp, Udemy, Coursera 
-  (anchored meta), InstinctHub, and Tiidelab. This diverse learning 
-  experience not only broadened my skillset in the basics of web 
-  development technologies like HTML, CSS, and JavaScript, but also 
-  advanced skills like React, NextJS, CSS Modules,Styled-Components Tailwind CSS, and VCS (Git). My learning 
-  journey is validated by building projects and earning certificates 
-  of completion, which solidify my proficiency in web development.`,
+      title: "Why Work With Me?",
+      text: `I bring a combination of practical development experience, problem-solving ability, and a genuine commitment to continuous improvement. Beyond writing code, I enjoy understanding problems, exploring possible solutions, and turning ideas into functional applications. Through hands-on projects and professional experience, I've developed skills in frontend and backend development, API integration, and working with modern web technologies. I'm adaptable, detail-oriented, open to collaboration, and always willing to learn. Whether working independently or as part of a team, I approach every project with a focus on writing maintainable code and delivering useful solutions.`,
     },
   ];
 
@@ -48,7 +29,7 @@ function AboutHeroSection() {
             OLUWASEUN SODEEQ
           </h2>
           <h6 className="font-medium font-inter text-2xl md:text-[30px] lg:text-[32px] leading-9 lg:leading-[48px] text-text-color ">
-            Frontend Developer
+            Full-Stack Developer
           </h6>
 
           <div className="">

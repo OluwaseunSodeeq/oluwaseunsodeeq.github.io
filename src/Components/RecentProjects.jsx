@@ -23,9 +23,9 @@ function RecentProjects() {
       tech: "",
       title: "TheraHome",
       aboutProject: [
-        " A responsive wellness booking platform enabling customers to explore massage services, book sessions, and submit product enquiries.",
-        " Built with Next.js (TypeScript), Tailwind CSS, and Supabase, with integrated form handling",
-        "and email notifications to support the booking workflow. ",
+        "A wellness platform that enables customers to explore massage services, book sessions, and enquire about wellness products. ",
+        "Built with modern web technologies featuring booking management, form validation, and ",
+        "notifications to support the booking and ordering workflow.",
       ],
       tools:
         "Next.js (Typescript), Tailwind CSS, Supabase,  Context Api, EmailJs",
@@ -43,9 +43,11 @@ function RecentProjects() {
       tech: "",
       title: "Climeset",
       aboutProject: [
-        "A climate literacy platform designed to promote environmental awareness through engaging storytelling and innovative technology. ",
-        "Features an AI-powered chatbot that delivers accurate insights on climate, weather, and sustainability topics in real time. ",
-        "We invite you to explore Climeset and experience its features firsthand.",
+        "An interactive climate literacy platform designed to make environmental education accessible to students and educators. ",
+        "Built with modern web technologies featuring Alyika, an AI-powered learning companion that provides insights on climate change, weather, and sustainability through OpenAI integration.",""
+        // "A climate literacy platform designed to promote environmental awareness through engaging storytelling and innovative technology. ",
+        // "Features an AI-powered chatbot that delivers accurate insights on climate, weather, and sustainability topics in real time. ",
+        // "We invite you to explore Climeset and experience its features firsthand.",
       ],
 
       tools: "Tailwind css, Nextjs, Context Api, React Hooks, OPenAi, Git etc.",
@@ -71,9 +73,11 @@ function RecentProjects() {
       tech: "",
       title: "FarmConnect",
       aboutProject: [
-        "An admin-driven platform built to manage interactions between farmers and buyers efficiently through clear, well-structured data visualization. ",
-        "Features a structured dashboard for monitoring products, users, and transaction-related data.",
-        "Built with a focus on usability and clarity, the application simplifies data-driven decision-making while maintaining a modern, intuitive interface. ",
+        "An agricultural management platform designed to streamline interactions between farmers and buyers through a centralised administrative dashboard. ",
+        "Features structured data management, product and user monitoring, and an intuitive interface that supports efficient administrative operations.",""
+        // "An admin-driven platform built to manage interactions between farmers and buyers efficiently through clear, well-structured data visualization. ",
+        // "Features a structured dashboard for monitoring products, users, and transaction-related data.",
+        // "Built with a focus on usability and clarity, the application simplifies data-driven decision-making while maintaining a modern, intuitive interface. ",
       ],
       tools:
         "Tailwind css, Nextjs, Context Api, React Hooks, Radix UI, Recharts, Git etc.",

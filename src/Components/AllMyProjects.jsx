@@ -31,8 +31,8 @@ export const projectsDeatails = [
     demo: false,
     title: "TheraHome",
     description:
-      "A responsive wellness booking platform enabling customers to explore massage services, book sessions, and submit product enquiries. Built with Next.js (TypeScript), Tailwind CSS, and Supabase, with integrated form handling and email notifications to support the booking workflow.",
-    tools: ["Next.js (Typescript)", "Tailwind CSS", "Supabase"],
+      "An interactive climate literacy platform designed to make environmental education accessible to students and educators. Featuring Alyika, an AI-powered learning companion that provides insights on climate change, weather, and sustainability through OpenAI integration.",
+    tools: ["Typescript", "Tailwind CSS", "Supabase"],
     image: "../therahome_logo.png",
     live: "https://therahome.com.ng/",
     github: "https://github.com/OluwaseunSodeeq/therahome",

@@ -17,22 +17,11 @@ function HomepageHeroSection() {
               Oluwaseun Sodeeq
             </h2>
             <h4 className="text-text-color font-bold text-base md:text-[18px]  md:text-xl font-inter leading-6 md:leading-7  mt-[16px]">
-              A Frontend Developer
+              Full-Stack Developer | React, Next.js & Node.js
             </h4>
             <p className="text-btn-text-color font-normal text-[14px] md:text-base font-inter leading-5 md:leading-6 mt-[16px] lg:mt-[24px]">
               “Good products shouldn&apos;t make people think too hard about how
-              to use them”. I enjoy turning ideas, designs, and real-world
-              problems into responsive web experiences that are intuitive,
-              reliable, and genuinely useful. I work mainly with React and
-              Next.js, combining thoughtful design, problem-solving, and
-              attention to detail to build products that don&apos;t just look
-              good, but work well.
-              {/* Driven by a passion for building seamless and intuitive user
-              experiences, I specialize in translating complex ideas into clean,
-              scalable, and engaging interfaces. With a strong focus on
-              precision, performance, and modern design principles, I deliver
-              solutions that are not only functional today but built to adapt
-              and grow with future needs. */}
+              to use them”. I build responsive web applications that solve real-world problems. From intuitive user interfaces to backend functionality and API integrations, I turn ideas into functional, reliable digital products. I enjoy working across the stack, combining thoughtful design, clean code, and problem-solving to create experiences that are both practical and easy to use.
             </p>
             <div className=" flex items-center gap-[16px] mt-4 lg:mt-[58px]">
               <button
